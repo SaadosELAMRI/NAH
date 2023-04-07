@@ -1,0 +1,38 @@
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 30%;
+    height: 180px;
+    width: auto;
+}
+
+.monCV {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.secondaryText {
+    font-size: 22px;
+}
+@media(max-width:450px){
+    .avatar{
+        height:150px;
+        width:auto;
+    }
+    }
+    
+    @media(width: 768px) {
+      
+        .avatar {
+            height: 200px;
+            width:auto;
+            margin: auto;
+        }
+        
+    }
